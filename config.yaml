@@ -1,0 +1,49 @@
+# Multimodal Integrity Engine Configuration
+
+pipeline:
+  name: "Multimodal Integrity Engine"
+  version: "1.0.0"
+
+models:
+  embedding: "sentence-transformers/all-MiniLM-L6-v2"
+  whisper_model: "tiny"
+  whisper_compute_type: "int8"
+  ai_detector: "roberta-base-openai-detector"
+  perplexity_fallback: "gpt2"
+
+chunking:
+  target_word_count: 180
+  overlap_sentences: 2
+  min_words_for_scoring: 25
+  max_tokens: 256
+
+matching:
+  semantic_threshold: 0.80
+  exact_threshold: 0.92
+  paraphrase_lexical_max: 0.70
+  top_k_matches_per_chunk: 1
+  top_matches_report_limit: 10
+
+template_handling:
+  similarity_threshold: 0.90
+  min_frequency_docs: 3
+  template_files: []
+  short_text_word_discount: 25
+
+external:
+  reference_dir: "reference_corpus"
+  similarity_threshold: 0.80
+
+risk_rules:
+  high:
+    peer_min: 50.0
+    external_min: 50.0
+    ai_min_with_other:
+      ai: 80.0
+      other: 20.0
+  medium:
+    any_similarity_min: 25.0
+    ai_min: 60.0
+
+reporting:
+  date_format: "%Y-%m-%d %H:%M:%S"
