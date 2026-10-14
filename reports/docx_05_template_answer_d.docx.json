@@ -1,0 +1,19 @@
+{
+  "document_id": "docx_05_template_answer_d.docx",
+  "total_integrity_risk": "LOW",
+  "scores": {
+    "peer_similarity_percentage": 0.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 15.0
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "external_matches": [],
+  "template_text_discounted": [
+    "[Short Header/Title <12 words]: Strategic Analysis Report - Submission D...",
+    "[Common Template (found across 5 submissions)]: CASE PROMPT & EVALUATION DIRECTIVES: Please conduct a comprehensive operational, financial, and strategic evaluation of ..."
+  ],
+  "warnings": [],
+  "status": "PROCESSED",
+  "explanations": "No significant internal peer similarity detected. No external database matches found. AI likelihood low to moderate."
+}

@@ -1,0 +1,31 @@
+{
+  "document_id": "mp4_01_reads_pdf_03.mp4",
+  "total_integrity_risk": "HIGH",
+  "scores": {
+    "peer_similarity_percentage": 100.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 7.3
+  },
+  "peer_matches": [],
+  "multimodal_matches": [
+    {
+      "matched_file": "pdf_03_original_retail.pdf",
+      "similarity_score": 0.94,
+      "query_passage": "Operating margins contracted by 4.2% across the third quarter due to acute supply chain bottlenecks, inventory holding surcharges, and escalating last mile carrier fees.",
+      "matched_passage": "Operating margins contracted by 4.2 percent across the third quarter due to acute supply chain",
+      "location": {
+        "matched_page": 1,
+        "query_timestamp": "00:00:00 - 00:00:24",
+        "matched_paragraph": 3
+      },
+      "match_type": "exact",
+      "lexical_score": 0.97,
+      "jaccard_score": 0.78
+    }
+  ],
+  "external_matches": [],
+  "template_text_discounted": [],
+  "warnings": [],
+  "status": "PROCESSED",
+  "explanations": "Internal peer overlap identified at 100.0%. Cross-modal match identified with pdf_03_original_retail.pdf at timestamp 00:00:00 - 00:00:24. No external database matches found. AI likelihood low to moderate."
+}

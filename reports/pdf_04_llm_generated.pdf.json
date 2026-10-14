@@ -1,0 +1,18 @@
+{
+  "document_id": "pdf_04_llm_generated.pdf",
+  "total_integrity_risk": "MEDIUM",
+  "scores": {
+    "peer_similarity_percentage": 0.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 64.5
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "external_matches": [],
+  "template_text_discounted": [
+    "[Short Header/Title <12 words]: Strategic Synthesis on Enterprise Agility..."
+  ],
+  "warnings": [],
+  "status": "PROCESSED",
+  "explanations": "No significant internal peer similarity detected. No external database matches found. AI likelihood low to moderate."
+}

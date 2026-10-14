@@ -1,0 +1,18 @@
+{
+  "document_id": "mp4_03_silent.mp4",
+  "total_integrity_risk": "UNPROCESSED",
+  "scores": {
+    "peer_similarity_percentage": 0.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 0.0
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "external_matches": [],
+  "template_text_discounted": [],
+  "warnings": [
+    "no audio track"
+  ],
+  "status": "UNPROCESSED",
+  "explanations": "Document could not be processed. Warnings: no audio track"
+}

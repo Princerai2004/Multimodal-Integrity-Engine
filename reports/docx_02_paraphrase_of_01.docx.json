@@ -1,0 +1,58 @@
+{
+  "document_id": "docx_02_paraphrase_of_01.docx",
+  "total_integrity_risk": "HIGH",
+  "scores": {
+    "peer_similarity_percentage": 77.5,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 18.5
+  },
+  "peer_matches": [
+    {
+      "matched_file": "docx_01_original_energy.docx",
+      "similarity_score": 0.93,
+      "query_passage": "On-Site Solar Microgrids and Levelized Energy Pricing: Constructing distributed photovoltaic arrays coupled with lithium-iron-phosphate energy storage decreases levelized energy costs from 14.2 cents to 8.6 cents per kilowatt-hour across a twenty-year service life.",
+      "matched_passage": "Microgrid Integration and Levelized Cost of Energy: Deploying on-site hybrid solar photovoltaic arrays paired with lithium-iron-phosphate battery storage reduces levelized cost of energy from $0.142 per kilowatt-hour to $0.086 per kilowatt-hour over a 20-year operational lifecycle.",
+      "location": {
+        "query_paragraph": 3,
+        "matched_paragraph": 3
+      },
+      "match_type": "paraphrase",
+      "lexical_score": 0.64,
+      "jaccard_score": 0.03
+    },
+    {
+      "matched_file": "docx_01_original_energy.docx",
+      "similarity_score": 0.93,
+      "query_passage": "Battery Degradation Modeling and Liquid Cooling: Thermal management simulations reveal that active liquid circulation preserves lithium-iron-phosphate battery capacity beyond 82 percent following 6,000 deep discharge cycles.",
+      "matched_passage": "Battery Degradation and Thermal Management: Cell degradation models demonstrate that active liquid cooling maintains lithium-iron-phosphate battery capacity above 82 percent after 6,000 equivalent full cycles.",
+      "location": {
+        "query_paragraph": 4,
+        "matched_paragraph": 4
+      },
+      "match_type": "paraphrase",
+      "lexical_score": 0.64,
+      "jaccard_score": 0.04
+    },
+    {
+      "matched_file": "docx_01_original_energy.docx",
+      "similarity_score": 0.84,
+      "query_passage": "Capital Expenditures and Return on Investment: Building the decentralized microgrid requires a total initial capital expense of $2.4 million before a thirty percent clean energy tax credit.",
+      "matched_passage": "Economic Valuation and Payback Analysis: The turnkey microgrid installation requires a gross capital investment of $2.4 million, offset by a 30 percent federal investment tax credit.",
+      "location": {
+        "query_paragraph": 5,
+        "matched_paragraph": 5
+      },
+      "match_type": "paraphrase",
+      "lexical_score": 0.64,
+      "jaccard_score": 0.11
+    }
+  ],
+  "multimodal_matches": [],
+  "external_matches": [],
+  "template_text_discounted": [
+    "[Short Header/Title <12 words]: Evaluation of Distributed Clean Energy Architecture..."
+  ],
+  "warnings": [],
+  "status": "PROCESSED",
+  "explanations": "High internal peer similarity detected against docx_01_original_energy.docx (score: 0.93, classification: paraphrase). No external database matches found. AI likelihood low to moderate."
+}

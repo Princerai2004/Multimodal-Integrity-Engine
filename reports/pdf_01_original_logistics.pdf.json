@@ -1,0 +1,79 @@
+{
+  "document_id": "pdf_01_original_logistics.pdf",
+  "total_integrity_risk": "HIGH",
+  "scores": {
+    "peer_similarity_percentage": 100.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 18.5
+  },
+  "peer_matches": [
+    {
+      "matched_file": "pdf_02_exact_copy_of_01.pdf",
+      "similarity_score": 1.0,
+      "query_passage": "four quarters, line-haul carrier expenses expanded by 14.8 percent while on-time delivery metrics",
+      "matched_passage": "four quarters, line-haul carrier expenses expanded by 14.8 percent while on-time delivery metrics",
+      "location": {
+        "query_page": 1,
+        "matched_page": 1,
+        "query_paragraph": 2,
+        "matched_paragraph": 2
+      },
+      "match_type": "exact",
+      "lexical_score": 1.0,
+      "jaccard_score": 1.0
+    },
+    {
+      "matched_file": "pdf_02_exact_copy_of_01.pdf",
+      "similarity_score": 1.0,
+      "query_passage": "Root Cause Analysis: Fleet telemetry logs reveal that empty backhaul miles currently constitute 22.4",
+      "matched_passage": "Root Cause Analysis: Fleet telemetry logs reveal that empty backhaul miles currently constitute 22.4",
+      "location": {
+        "query_page": 1,
+        "matched_page": 1,
+        "query_paragraph": 3,
+        "matched_paragraph": 3
+      },
+      "match_type": "exact",
+      "lexical_score": 1.0,
+      "jaccard_score": 1.0
+    },
+    {
+      "matched_file": "pdf_02_exact_copy_of_01.pdf",
+      "similarity_score": 1.0,
+      "query_passage": "integrated with dynamic load-matching exchanges.",
+      "matched_passage": "integrated with dynamic load-matching exchanges.",
+      "location": {
+        "query_page": 2,
+        "matched_page": 2,
+        "query_paragraph": 1,
+        "matched_paragraph": 1
+      },
+      "match_type": "exact",
+      "lexical_score": 1.0,
+      "jaccard_score": 1.0
+    },
+    {
+      "matched_file": "pdf_02_exact_copy_of_01.pdf",
+      "similarity_score": 1.0,
+      "query_passage": "Financial Feasibility and ROI: Capital requirements for IoT telematics hardware and system retrofits total",
+      "matched_passage": "Financial Feasibility and ROI: Capital requirements for IoT telematics hardware and system retrofits total",
+      "location": {
+        "query_page": 2,
+        "matched_page": 2,
+        "query_paragraph": 2,
+        "matched_paragraph": 2
+      },
+      "match_type": "exact",
+      "lexical_score": 1.0,
+      "jaccard_score": 1.0
+    }
+  ],
+  "multimodal_matches": [],
+  "external_matches": [],
+  "template_text_discounted": [
+    "[Short Header/Title <12 words]: Logistics Fleet Optimization & Telemetry Study..."
+  ],
+  "warnings": [],
+  "status": "PROCESSED",
+  "explanations": "High internal peer similarity detected against pdf_02_exact_copy_of_01.pdf (score: 1.00, classification: exact). No external database matches found. AI likelihood low to moderate."
+}

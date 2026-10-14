@@ -1,0 +1,16 @@
+{
+  "document_id": "mp4_02_original_pitch.mp4",
+  "total_integrity_risk": "LOW",
+  "scores": {
+    "peer_similarity_percentage": 0.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 3.0
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "external_matches": [],
+  "template_text_discounted": [],
+  "warnings": [],
+  "status": "PROCESSED",
+  "explanations": "No significant internal peer similarity detected. No external database matches found. AI likelihood low to moderate."
+}
