@@ -1,0 +1,135 @@
+{
+  "dataset_name": "Multimodal Integrity Engine Benchmark Dataset",
+  "total_files": 15,
+  "files": [
+    {
+      "filename": "pdf_01_original_logistics.pdf",
+      "type": "pdf",
+      "label": "original",
+      "source_topic": "logistics"
+    },
+    {
+      "filename": "pdf_02_exact_copy_of_01.pdf",
+      "type": "pdf",
+      "label": "exact_copy",
+      "copied_from": "pdf_01_original_logistics.pdf"
+    },
+    {
+      "filename": "pdf_03_original_retail.pdf",
+      "type": "pdf",
+      "label": "original",
+      "source_topic": "retail"
+    },
+    {
+      "filename": "pdf_04_llm_generated.pdf",
+      "type": "pdf",
+      "label": "llm_generated",
+      "generator": "ChatGPT/Claude synthetic"
+    },
+    {
+      "filename": "pdf_05_template_answer_a.pdf",
+      "type": "pdf",
+      "label": "template_user",
+      "template_section": "150-word prompt"
+    },
+    {
+      "filename": "pdf_06_empty.pdf",
+      "type": "pdf",
+      "label": "corrupted",
+      "condition": "zero-byte file"
+    },
+    {
+      "filename": "pdf_07_template_answer_e.pdf",
+      "type": "pdf",
+      "label": "template_user",
+      "template_section": "150-word prompt"
+    },
+    {
+      "filename": "docx_01_original_energy.docx",
+      "type": "docx",
+      "label": "original",
+      "source_topic": "renewable_energy"
+    },
+    {
+      "filename": "docx_02_paraphrase_of_01.docx",
+      "type": "docx",
+      "label": "paraphrase",
+      "copied_from": "docx_01_original_energy.docx"
+    },
+    {
+      "filename": "docx_03_template_answer_b.docx",
+      "type": "docx",
+      "label": "template_user",
+      "template_section": "150-word prompt"
+    },
+    {
+      "filename": "docx_04_template_answer_c.docx",
+      "type": "docx",
+      "label": "template_user",
+      "template_section": "150-word prompt"
+    },
+    {
+      "filename": "docx_05_template_answer_d.docx",
+      "type": "docx",
+      "label": "template_user",
+      "template_section": "150-word prompt"
+    },
+    {
+      "filename": "mp4_01_reads_pdf_03.mp4",
+      "type": "mp4",
+      "label": "cross_modal_copy",
+      "copied_from": "pdf_03_original_retail.pdf"
+    },
+    {
+      "filename": "mp4_02_original_pitch.mp4",
+      "type": "mp4",
+      "label": "original",
+      "source_topic": "banking_pitch"
+    },
+    {
+      "filename": "mp4_03_silent.mp4",
+      "type": "mp4",
+      "label": "silent",
+      "condition": "no audio stream"
+    }
+  ],
+  "ground_truth_relationships": [
+    {
+      "doc_a": "pdf_01_original_logistics.pdf",
+      "doc_b": "pdf_02_exact_copy_of_01.pdf",
+      "relation": "exact_copy",
+      "expected_peer_score": ">=90%"
+    },
+    {
+      "doc_a": "docx_01_original_energy.docx",
+      "doc_b": "docx_02_paraphrase_of_01.docx",
+      "relation": "paraphrase",
+      "expected_peer_score": ">=80%",
+      "expected_lexical": "<70%"
+    },
+    {
+      "doc_a": "mp4_01_reads_pdf_03.mp4",
+      "doc_b": "pdf_03_original_retail.pdf",
+      "relation": "cross_modal_copy",
+      "expected_score": ">=80%"
+    },
+    {
+      "doc_a": "pdf_05_template_answer_a.pdf",
+      "doc_b": "docx_03_template_answer_b.docx",
+      "relation": "benign_template",
+      "discounted": true
+    },
+    {
+      "doc_a": "docx_04_template_answer_c.docx",
+      "doc_b": "docx_05_template_answer_d.docx",
+      "relation": "benign_template",
+      "discounted": true
+    },
+    {
+      "doc_a": "pdf_07_template_answer_e.pdf",
+      "doc_b": "pdf_05_template_answer_a.pdf",
+      "relation": "benign_template",
+      "discounted": true
+    }
+  ]
+}
