@@ -1,0 +1,1 @@
+Autonomous Mobile Robots in E-commerce Warehouses. Robotic sortation systems drastically compress pick-to-pack latency while enhancing inventory count precision.

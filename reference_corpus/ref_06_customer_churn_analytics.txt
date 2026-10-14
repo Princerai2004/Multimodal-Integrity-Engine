@@ -1,0 +1,1 @@
+Customer Lifetime Value and Retention Modeling in Banking. Predictive churn models utilize customer transaction velocity, service interactions, and fee friction to detect attrition signals. Proactive interventions through digital channels consistently improve retention cohorts.

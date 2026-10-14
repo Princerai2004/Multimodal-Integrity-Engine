@@ -1,0 +1,1 @@
+Supply Chain Telematics and Logistics Management. Modern freight logistics relies heavily on telematics and route optimization engines. Fleet efficiency is benchmarked against fuel economy, driver fatigue cycles, and empty deadhead mileage. Integrating GPS routing with automated warehouse sortation substantially lowers transit latency.

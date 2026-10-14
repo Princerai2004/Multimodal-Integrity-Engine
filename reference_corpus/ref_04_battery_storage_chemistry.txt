@@ -1,0 +1,1 @@
+Lithium-Iron-Phosphate (LFP) Battery Lifecycle Management. LFP chemistry delivers superior thermal stability and extended cycle life compared to nickel-manganese chemistries. Active thermal regulation minimizes degradation during heavy cycling in industrial energy storage.

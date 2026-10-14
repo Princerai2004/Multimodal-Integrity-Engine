@@ -1,0 +1,1 @@
+Freight Optimization Protocols in North American Transit. Long-haul fleet logistics suffers from high operational friction caused by manual scheduling. Dynamic dispatch software pairs empty outbound tractor-trailers with return freights to boost asset productivity.
