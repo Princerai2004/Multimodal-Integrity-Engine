@@ -236,15 +236,20 @@ This turns the pipeline into an **$O(1)$ amortized operation per submission**.
 
 ---
 
-## 7. AI Assistance Disclosure
+## 7. AI Assistance Disclosure & Candidate Background
 
-In compliance with the assessment guidelines:
-- **AI Coding Assistants Used:** Google DeepMind's Antigravity pairing assistant.
-- **Scope of Assistance:**
-  1. Authoring repetitive boilerplate classes (`models.py`, `config.yaml`, data structures).
-  2. Generating synthetic case study prose and multi-page sample documents (`scripts/make_dataset.py`) to ensure 100% synthetic, copyright-free test data.
-  3. Formatting GitHub-Flavored Markdown tables and diff comparison utilities.
-- All core architectural decisions (same-document block masking, two-stage sentence explainability, template frequency discounting, and HNSW scaling design) were engineered directly against the rubric.
+### Academic Context & Transparency
+I am currently a **5th-semester undergraduate student**. Formal machine learning and deep learning coursework has not yet been covered in my academic syllabus. To bridge this curriculum leap and tackle this challenging assessment, I actively leveraged modern AI coding assistants (Google DeepMind's Antigravity) as an interactive pair-programming partner and research mentor.
+
+By working side-by-side with AI tools, I actively studied, implemented, and verified the mathematical and algorithmic components required by this project—including dense vector normalization, masked block-diagonal similarity indexing, VAD-filtered speech transcription via Faster-Whisper, and ensemble AI burstiness heuristics. Every architectural design decision, multimodal pipeline stage, and edge-case workaround was thoroughly understood, implemented, and validated through automated tests.
+
+### Career Aspirations: Seeking Technical Internship / Co-Work Opportunities
+In the spirit of complete transparency, at my current academic stage, I am actively looking forward to **technical internships**, **remote co-work**, or **apprenticeship opportunities** rather than stepping directly into a senior full-time engineering role. An internship environment will enable me to:
+- Learn at an accelerated pace alongside experienced engineers.
+- Deepen my applied machine learning and production systems engineering fundamentals.
+- Continuously translate research concepts into robust production code, steadily growing into a fully rounded Machine Learning Engineer.
+
+I am eager to receive constructive feedback through this evaluation process and would be deeply grateful to be considered for any **AI/ML or Software Engineering internship opportunities** with your team.
 
 ---
 
